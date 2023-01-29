@@ -225,6 +225,23 @@ export default function SettingsTab({ placeholderSlippage }: { placeholderSlippa
                     setClientSideRouter(!clientSideRouter)
                   }}
                 />
+                <RowFixed>
+                  <ThemedText.DeprecatedBlack fontWeight={400} fontSize={14} color={theme.textSecondary}>
+                    <Trans>Compatability mode</Trans>
+                  </ThemedText.DeprecatedBlack>
+                  <QuestionHelper text={<Trans>Use the Uniswap Labs API to get faster quotes.</Trans>} />
+                </RowFixed>
+                <Toggle
+                  id="toggle-optimized-router-button"
+                  isActive={!clientSideRouter}
+                  toggle={() => {
+                    sendEvent({
+                      category: 'Routing',
+                      action: clientSideRouter ? 'enable routing API' : 'disable routing API',
+                    })
+                    setClientSideRouter(!clientSideRouter)
+                  }}
+                />
               </RowBetween>
             )}
             <RowBetween>

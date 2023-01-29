@@ -124,7 +124,7 @@ export interface RoutingDiagramEntry {
   protocol: Protocol
 }
 
-const V2_DEFAULT_FEE_TIER = 3000
+const V2_DEFAULT_FEE_TIER = 2000
 
 /**
  * Loops through all routes on a trade and returns an array of diagram entries.

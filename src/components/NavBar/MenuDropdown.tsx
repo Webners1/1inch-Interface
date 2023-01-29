@@ -133,7 +133,7 @@ export const MenuDropdown = () => {
 
         {isOpen && (
           <NavDropdown top={{ sm: 'unset', lg: '56' }} bottom={{ sm: '56', lg: 'unset' }} right="0">
-            <Column gap="16">
+            {/* <Column gap="16">
               <Column paddingX="8" gap="4">
                 <PrimaryMenuRow to="/vote" close={toggleOpen}>
                   <Icon>
@@ -206,7 +206,7 @@ export const MenuDropdown = () => {
                   />
                 </Icon>
               </IconRow>
-            </Column>
+            </Column> */}
           </NavDropdown>
         )}
       </Box>

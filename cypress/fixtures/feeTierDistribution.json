@@ -6,22 +6,22 @@
   },
   "asToken0": [
     {
-      "feeTier": "100",
+      "feeTier": "2000",
       "totalValueLockedToken0": "0",
       "totalValueLockedToken1": "3"
     },
     {
-      "feeTier": "500",
+      "feeTier": "2000",
       "totalValueLockedToken0": "0",
       "totalValueLockedToken1": "1"
     },
     {
-      "feeTier": "3000",
+      "feeTier": "2000",
       "totalValueLockedToken0": "0",
       "totalValueLockedToken1": "4"
     },
     {
-      "feeTier": "10000",
+      "feeTier": "2000",
       "totalValueLockedToken0": "0",
       "totalValueLockedToken1": "2"
     }
